@@ -6,51 +6,79 @@
 //2. Declara una variable para almacenar tu color favorito y asígnale el color.
 //3. Declara una variable para almacenar tu número de teléfono, usando un string para permitir guiones.
 
+const myCity = "Montevideo";
+const myColor = "Azul";
+const myPhone = "111-111-1111";
+const myInfo = [myCity, myColor, myPhone].join("-");
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(myInfo);
 
 
 
 // Ejercicio 2: Actualización de Variables
 // 1. Declara una variable score y asígnale el valor 0.
 // 2. Actualiza el valor de score sumando 10 puntos.
-// 3. Vuelve a actualizar el valor de score restando 5 puntos. 4. Muestra el valor final de score.
+// 3. Vuelve a actualizar el valor de score restando 5 puntos. 
+// 4. Muestra el valor final de score.
+
+
+
+let score = 0;
+score += 10;
+score -= 5;
+
+
+console.log(score); // Imprime (5)
+
+
 // Ejercicio 3: Variables Constantes
 // 1. Declara una constante PI y asígnale el valor 3.14159.
 // 2. Declara una constante BIRTH_YEAR y asígnale tu año de
 // nacimiento.
 // 3. Intenta reasignar un nuevo valor a PI y observa el
 //      resultado (debería generar un error).
+
+const PI = `3.14159`;
+const BIRTH_YEAR = 2000;
+// const PI = `3.14159`; // MUESTRA ERROR YA QUE LAS CONSTANTES NO SE PUEDEN VOLVER A ASIGNAR.
+
+
+
+
 // Tipos de Datos
 // Ejercicio 1: Tipos Básicos
 // 1. Declara una variable isJavaScriptFun y asígnale el valor true.
 // 2. Declara una variable firstName y asígnale tu primer nombre.
 // 3. Declara una variable numberOfSiblings y asígnale el número de hermanos que tienes.
 // 4. Declara una variable height y asígnale tu altura en metros (por ejemplo, 1.75).
+
+let isJavaScriptFun = true;
+let firstName = "Juan";
+let numberOfSiblings = 1;
+let height = 1.75;
+
+
+
+
+
+
+
 // Ejercicio 2: Conversión de Tipos
 // 1. Declara una variable yearString y asígnale el año actual como string.
 // 2. Convierte yearString a un número y almacénalo en una nueva variable yearNumber.
 // 3. Declara una variable age y asígnale el valor 30.
 // 4. Convierte age a un string y almacénalo en una nueva
 // variable ageString.
+
+
+
+
+
+
+
+
+
 // Ejercicio 3: Valores Especiales
 // 1. Declara una variable undefinedVariable y no le asignes ningún valor.
 // 2. Declara una variable nullVariable y asígnale el valor null.

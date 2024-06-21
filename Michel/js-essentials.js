@@ -209,6 +209,4 @@ const arr6 = [...arr3]
 const arr5 = [...arr3, ...arr4,]
 
 
-
-
 console.log(arr6)
