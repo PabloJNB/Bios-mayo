@@ -5,25 +5,30 @@ body {
     font-style: normal;
     color:black;
 }
+paragraph {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+p.informacion-contacto {
+    color: blue;
+}
 
 h1 {
     font-size: 50px;
     font-weight: 500;
-    color:rgb(21, 99, 176);
+    color:rgb(26, 148, 162);
 }
+
 h2 {
     font-size: 30px;
     font-weight: 300;
-    color: rgb(162, 130, 26);
+    color: rgb(26, 148, 162);
 }
 .subtitle {
     color: aquamarine;
 }
 .subtitle__changed {
-    color: rgb(162, 130, 26);
-}
-paragraph {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
+    color:rgb(26, 148, 162);
 }
