@@ -1,0 +1,91 @@
+<!-- Ejercicio: Crear una Encuesta sobre Preferencias de Películas
+Instrucciones:
+1. Crea un archivo HTML llamado encuesta.html.
+2. Dentro del archivo, crea un formulario con los
+siguientes campos utilizando diferentes tipos de inputs:
+o Género de película favorito (elemento select con
+varias opciones)
+o Película favorita (input tipo text)
+o Calificación de la última película vista (input
+tipo number con un rango de 1 a 10)
+o Formato de preferencia para ver películas (input
+tipo radio con opciones "Cine", "Streaming",
+"DVD/Blu-ray")
+o Comentarios sobre la última película vista
+(elemento textarea)
+o Preferencias de horarios para ver películas (input
+tipo checkbox con opciones "Mañana", "Tarde",
+"Noche")
+3. Agrega un botón de envío al formulario.
+4. Usa el método GET para que los datos se muestren en la
+URL al enviar el formulario. -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta sobre tu Pelicula Favorita</title>
+</head>
+<body>
+    <header>
+        <h1>Encuesta de tu Pelicula Favorita</h1>
+    </header>
+    <main>
+        <form action="/Resultados" method="get">
+            <div>
+                <label for="Generos de Peliculas">Genero Favorito</label>
+                <select name="Generos de Peliculas" id="Generos de Peliculas">
+                    <option value="Drama">Drama</option>
+                    <option value="Comedia">Comedia</option>
+                    <option value="Terror">Terror</option>
+                    <option value="Accion">Accion</option>
+                </select>
+
+            </div>
+            <br>
+            <div>
+                <label for="Pelicula Favorita">Pelicula Favorita</label>
+                <input type="text" name="Pelicula Favorita" id="Pelicula Favorita" placeholder="Escribe tu Pelicula favorita">
+            </div>
+            <br>
+            <div>
+                <label for="Calificacion de la Pelicula">Calificacion tu ultima Pelicula Vista</label>
+                <input type="number" name="Calificacion de la Pelicula" id="Calificacion de la Pelicula" min="1" max="10">
+            </div>
+            <br>
+            <div>
+                <label for="Formato de Pelicula">Formato de Preferencia para ver Películas</label>
+                <input type="radio" name="Formato de Pelicula" id="Cine" value="Cine">
+                <label for="Cine">Cine</label>
+                <input type="radio" name="Formato de Pelicula" id="Streaming" value="Streaming">
+                <label for="Streaming">Streaming</label>
+                <input type="radio" name="Formato de Pelicula" id="DVD/Blu-ray" value="DVD/Blu-ray">
+                <label for="DVD/Blu-ray">DVD/Blu-ray</label>
+                <input type="radio" name="Formato de Pelicula" id="CrunchyRoll" value="CrunchyRoll">
+                <label for="Crunchy Roll">CrunchyRoll</label>
+            </div>
+            <br>
+            <div>
+                <label for="Comentarios">Comenta que te parecio tu ultima Pelicula</label>
+                <textarea name="Comentarios" id="Comentarios" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="Horarios de Peliculas">En que horario prefieres ver Peliculas?</label>
+                <input type="checkbox" name="Horarios de Peliculas" id="Horarios de Peliculas" value="Horarios de Peliculas">
+                <label for="Horarios de Peliculas">Mañana</label>
+                <input type="checkbox" name="Horarios de Peliculas" id="Horarios de Peliculas" value="Horarios de Peliculas">
+                <label for="Horarios de Peliculas">Tarde</label>
+                <input type="checkbox" name="Horarios de Peliculas" id="Horarios de Peliculas" value="Horarios de Peliculas">
+                <label for="Horarios de Peliculas">Noche</label>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+
+        </form>
+    </main>
+</body>
+</html>

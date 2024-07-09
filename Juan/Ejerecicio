@@ -1,0 +1,84 @@
+<!-- Ejercicio Práctico: Aplicando Estilos CSS
+Objetivo:
+Crear un diseño de página web básico utilizando las
+propiedades CSS aprendidas durante la clase. Deberás aplicar
+estilos a la siguiente página HTML y personalizarla según las
+indicaciones.
+Instrucciones:
+
+
+1. Crea el archivo HTML base:
+      <!DOCTYPE html>
+      <html lang="es">
+      <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial- scale=1.0">
+<title>Ejemplo CSS</title>
+<link rel="stylesheet" href="styles.css"> </head>
+      <body>
+          <header>
+<h1>Bienvenidos a mi sitio web</h1> </header>
+<nav> <ul>
+<li><a href="#">Inicio</a></li> <li><a href="#">Acerca de</a></li> <li><a href="#">Contacto</a></li>
+</ul> </nav>
+          <main>
+              <section>
+<h2>Sección principal</h2>
+<p>Contenido de ejemplo.</p> </section>
+          </main>
+          <footer>
+<p>&copy; 2024 Mi Sitio Web</p> </footer>
+      </body>
+      </html>
+
+
+
+2. Crea un archivo CSS externo:
+o Nombra el archivo styles.css y enlázalo correctamente al archivo HTML.
+
+
+
+
+
+
+
+3. Aplica los siguientes estilos CSS: o Header (Encabezado):
+§ Fondo de color azul (#4A90E2). § Texto centrado y color blanco. § Añadir padding de 20px.
+o Navegación (Nav):
+§ Estilo de lista sin viñetas (bullet points).
+Elementos de la lista (li) alineados horizontalmente.
+§ Espaciado de 10px entre cada enlace. § Fondo gris claro (#F0F0F0).
+§ Padding de 10px.
+o Enlaces de Navegación:
+§ Color de texto negro. § Quitar subrayado.
+o Contenido Principal (Main):
+§ Margen de 20px alrededor.
+§ Fuente de texto Arial, tamaño 16px.
+§ Fondo blanco y borde sólido de 1px con color
+gris (#DDDDDD).
+o Sección Principal (Section):
+§ Añadir un padding de 20px.
+§ Color de fondo (#F9F9F9). o Footer (Pie de página):
+§ Texto centrado.
+§ Fondo gris oscuro (#333). § Color de texto blanco.
+§ Padding de 10px.
+o Box Model:
+§ Asegúrate de aplicar márgenes y padding según
+    se necesite para mantener una disposición
+    visualmente agradable.
+
+
+
+
+
+
+
+4. Opcional:
+o Personaliza el diseño con tus propios colores y
+    estilos adicionales si terminas antes del tiempo
+asignado.
+
+
+
+5. Guarda tu trabajo y revisa el diseño en un navegador
+web para asegurarte de que se vea como se espera. -->

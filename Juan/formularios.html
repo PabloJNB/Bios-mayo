@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIOS</title>
+</head>
+
+<body>
+    <header>
+        <h1>FORMULARIOS</h1>
+    </header>
+
+    <main>
+        <form action="/Resultados" method="post">
+
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" required>
+            </div>
+<br>
+            <div>
+                <label for="contraseña">Contraseña</label>
+                <input type="password" name="contraseña" id="contraseña" placeholder="Escribe tu contraseña" required minlength="8" maxlength ="16">
+            </div>
+            <br>
+            <div>
+                <label for="edad">Edad</label>
+                <input type="number" name="edad" id="edad" placeholder="Escribe tu edad" min ='0' max ='100' value="18">
+            </div>
+            <br>
+            <div>
+                <label for="genero">
+                    <input type="radio" name="genero" id="masculino" value="masculino">
+                    <label for="masculino">Masculino</label>
+            </div>
+            <div>
+                <input type="radio" name="genero" id="femenino" value="femenino">
+                <label for="femenino">Femenino</label>
+
+            </div>
+
+            <div>
+                <input type="radio" name="genero" id="otro" value="otro">
+                <label for="otro">Otro</label>
+<br>
+            </div>
+            <br>
+            <div>
+                <label>Cual es tu Hobbie?</label>
+                <input type="checkbox" name="hobbies" id="musica" value="musica">
+                <label for="musica">Musica🎶</label>
+                <input type="checkbox" name="hobbies" id="deportes" value="deportes">
+                <label for="deportes">Deportes⚽️</label>
+                <input type="checkbox" name="hobbies" id="viajar" value="viajar">
+                <label for="viajar">Viajar🧳</label>
+                <input type="checkbox" name="hobbies" id="film" value="Informatica">
+                <label for="film">Informatica👨🏻‍💻</label>
+            </div>
+            <br>
+            <div>
+                <label for="Biografia">Biografia</label>
+                <textarea name="" id="Biografia" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="Lugar de nacimiento">Lugar de nacimiento</label>
+                <select name="Lugar de nacimiento" id="Lugar de nacimiento">
+                    <option value="Uruguay">Uruguay🇺🇾</option>
+                    <option value="Colombia">Colombia🇨🇴</option>
+                    <option value="Argentina">Argentina🇦🇷</option>
+                    <option value="Brasil">Brasil🇧🇷</option>
+                </select>
+
+            </div>
+            <br>
+            <div>
+                <input type="date" value="number">
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="Email">Email</label>
+                <input type="email" name="Email" id="Email" placeholder="Escribe tu email">
+            </div>
+            <br>
+            <br>
+
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+<br>
+            <div>
+                <input type="reset" value="Limpiar">
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+/* Propiedades de tipo de color */
+
+
+.color-azul {
+    color: rgb(24, 11, 90, 50%);
+}
+
+
+.fondo-gris {
+    background-color:rgb(217, 198, 199, 25%);
+}   
+
+/* Propiedades de tipo de Texto */
+
+.texto-centrado {
+    text-align: center;
+}
+
+/* Propiedades de tipo de fuente */
+
+.fuente {
+    /*font size representa el tamano de la fuente */
+    font-size: 32px;
+}
+
+.fuente-verdana {
+    /*font family representa la tipografia que se va a usar */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subrayar-texto {
+    text-decoration: underline;
+}
+
+
+.fuente-negrita {
+    font-weight: 400;
+
+    /*font weight representa el tamano de la fuente */
+}
+
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+/* Propiedades del Borde */
+.border {
+    border: 10px solid black;
+}
+
+.redondear-esquinas {
+    border-radius: 100px 50px;
+}
+
+
+/*Separ el contenido interno (padding) */
+.padding {
+    padding: 10px 15px;
+}
+
+/* Espacio entre elementos (margin) */
+.margin {
+    margin: 20px 15px;
+}
+
+.espacio-arriba {
+    margin-top: 40px;
+}

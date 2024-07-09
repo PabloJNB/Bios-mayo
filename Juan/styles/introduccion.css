@@ -1,0 +1,35 @@
+/* Selector universal */
+* {
+    margin: 5px;
+    padding: 10px;
+    text-align:center;
+
+}
+
+/* Selector Grupales */
+h3 , h4, h5, h6 {
+    margin: 8px;
+    padding: 16px;
+}
+
+
+
+h2 {
+    color: white;
+    background-color: black;
+
+}
+
+/* Selector de clase */
+
+.subtitulo-clase {
+    background-color: yellow;
+    color: black;
+    
+}
+/* Selector de ID */
+
+#fondo-Azul {
+    background-color: blue
+    ;
+}
