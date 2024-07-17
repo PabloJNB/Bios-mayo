@@ -17,7 +17,8 @@ Instrucciones:
 <link rel="stylesheet" href="styles.css"> </head>
       <body>
           <header>
-<h1>Bienvenidos a mi sitio web</h1> </header>
+<h1>Bienvenidos a mi sitio web</h1>
+</header>
 <nav> <ul>
 <li><a href="#">Inicio</a></li> <li><a href="#">Acerca de</a></li> <li><a href="#">Contacto</a></li>
 </ul> </nav>
@@ -36,32 +37,35 @@ Instrucciones:
 2. Crea un archivo CSS externo:
 o Nombra el archivo styles.css y enlázalo correctamente al archivo HTML.
 
-
-
-
-
-
-
 3. Aplica los siguientes estilos CSS: o Header (Encabezado):
-§ Fondo de color azul (#4A90E2). § Texto centrado y color blanco. § Añadir padding de 20px.
-o Navegación (Nav):
+§ Fondo de color azul (#4A90E2). § 
+Texto centrado y color blanco.
+ § Añadir padding de 20px.
+
+4 Navegación (Nav):
 § Estilo de lista sin viñetas (bullet points).
-Elementos de la lista (li) alineados horizontalmente.
+
+Elementos de la lista 
+(li) alineados horizontalmente.
 § Espaciado de 10px entre cada enlace. § Fondo gris claro (#F0F0F0).
 § Padding de 10px.
+
 o Enlaces de Navegación:
 § Color de texto negro. § Quitar subrayado.
+
 o Contenido Principal (Main):
 § Margen de 20px alrededor.
 § Fuente de texto Arial, tamaño 16px.
 § Fondo blanco y borde sólido de 1px con color
 gris (#DDDDDD).
+
 o Sección Principal (Section):
 § Añadir un padding de 20px.
 § Color de fondo (#F9F9F9). o Footer (Pie de página):
 § Texto centrado.
 § Fondo gris oscuro (#333). § Color de texto blanco.
 § Padding de 10px.
+
 o Box Model:
 § Asegúrate de aplicar márgenes y padding según
     se necesite para mantener una disposición
